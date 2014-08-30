@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="s4548", GROUP="plugdev", MODE="0664", RUN+="/home/kernelcode/.util/bootmsg.sh %k"
+
